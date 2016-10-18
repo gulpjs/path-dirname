@@ -211,6 +211,6 @@ function win32(path) {
   return path.slice(0, end);
 }
 
-module.exports = path.dirname || process.platform === 'win32' ? win32 : posix;
-module.exports.posix = (path.posix && path.posix.dirname) || posix;
-module.exports.win32 = (path.win32 && path.win32.dirname) || win32;
+module.exports = process.platform === 'win32' ? win32 : posix;
+module.exports.posix = posix;
+module.exports.win32 = win32;
