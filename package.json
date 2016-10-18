@@ -1,6 +1,6 @@
 {
   "name": "path-dirname",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Node.js path.dirname() ponyfill",
   "license": "MIT",
   "repository": "es128/path-dirname",
