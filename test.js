@@ -1,5 +1,5 @@
 var assert = require('assert');
-var pathDirname = require('.');
+var pathDirname = require('./');
 
 var path = {
   posix: {
